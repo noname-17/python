@@ -1,5 +1,5 @@
 
-
+# a simple project using simple python , mysql.connector module and mysql querries
 import mysql.connector as my
 ob=my.connect(host="localhost",user="root",database="cbse202312b",passwd="mysql")
 c=ob.cursor()
@@ -114,4 +114,5 @@ while True:
        elif ch2==4:
          break    
     elif ch==3:
+
         break
